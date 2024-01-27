@@ -1,0 +1,90 @@
+.Card_Child1 {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 20px; /* Adjust padding */
+    margin: 20px auto;
+    background-image: linear-gradient(to Right, #8243c9e4 5%,#d047f6);
+    gap:100px
+  }
+  
+  .Theater_Img1 {
+    border: 2px solid black;
+    width: 100%;
+  }
+  
+  .dynamic_Left {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    width: 40%;
+  }
+  
+  .dynamic_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding-left: 20px; /* Adjust padding */
+    font-family: DM Sans,sans-serif;
+  }
+  
+  .Theater_Name1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5px; /* Adjust margin */
+    color: #320763e4;
+    font-family: DM Sans,sans-serif;
+
+  }
+  
+  .Theater_Prize1,
+  .Theater_ExtraPrize1,
+  .Theater_Available1,
+  .Theater_people1 {
+    margin-top: 5px; /* Adjust margin */
+    font-size: 20px;
+    font-family: DM Sans,sans-serif;
+  }
+  
+  .logo_Dynamic {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    fill: black; /* Ensure icon color matches border */
+    background-color: green;
+    border-radius: 50%;
+  }
+  .dynamic_h1{
+    border: 2px solid black;
+    font-family: DM Sans,sans-serif;
+    background-color: #f8ebff;
+    color: #320763e4;
+  }
+
+  .dynamic_h1 {
+    border: 2px solid black;
+    font-family: DM Sans, sans-serif;
+    background-color: #f8ebff;
+    color: #320763e4;
+    transition: transform 0.3s ease; /* Smooth transition for transform property */
+  }
+  
+  /* Define the animation */
+  @keyframes moveCard {
+    0% {
+      transform: translateX(0); /* Start with no movement */
+    }
+    50% {
+      transform: translateX(20px); /* Move 20px to the right */
+    }
+    100% {
+      transform: translateX(0); /* Move back to original position */
+    }
+  }
+  
+  /* Apply animation to .dynamic_h1 */
+  .dynamic_h1:hover {
+    animation: moveCard 1s; /* Apply the animation on hover */
+  }
+  

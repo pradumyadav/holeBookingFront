@@ -1,0 +1,91 @@
+
+       
+
+        .first_Parent{
+           
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .first_Sub_Parent{
+           
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .parent_Image{
+           
+            padding-left: 5rem;
+        }
+
+        .logo_Img{
+            width:150px
+        }
+
+        .all_Div_Parent{
+         
+           
+            border-bottom-left-radius: 30px; /* Adjust the value as needed */
+            background-color: #4b0e91e4;
+            color: white;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            font-family: DM Sans,sans-serif;
+            gap:3rem;
+        }
+       
+     
+        .details_Divs{
+            font-size: 20px;
+        }
+        
+        .icons_Parent{
+            
+            display: flex;
+            gap:15px;
+            margin-right: 70px;
+        }
+        .padding{
+            padding-left: 90px;
+        }
+       
+        .icons{
+            font-size: 25px;
+        }   
+        
+        .all_Link_Parent{
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height:60px;
+          
+        
+        }
+
+        .link{
+            font-size: 1rem;
+            color:black;
+            font-weight: 450;
+            font-family: DM Sans,sans-serif;
+        }
+
+        .btn{
+            width: 130px;
+            height: 50px;
+            border-radius: 8px;
+            color: white;
+            font-size: 1.2rem;
+            background-image: linear-gradient(to Right, #8243c9e4 5%,#d047f6);
+        }
+        .btn:hover{
+            cursor: pointer;;
+            background-image: linear-gradient(to right, #f68747);
+
+        }

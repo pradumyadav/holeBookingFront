@@ -1,0 +1,129 @@
+
+
+.Parent_Carousel {
+  
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to Right, #5f13b6e4 50%,#d047f6);
+    height: 420px;
+}
+
+
+.Subparent_Carpousel{
+ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_Child{
+   
+    width:51%
+}
+.right_Child img{
+    width:380px;
+    height: 330px;
+   
+    border-radius: 15px;
+}
+.p-1{
+    width:77%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: DM Sans,sans-serif;
+    color: white;
+}
+.btn2{
+    width:140px;
+    height: 40px;
+    border-radius: 7px;
+    color:rgb(134, 14, 246);
+    font-size: 16px;
+    font-weight: 550;
+    background-color: white;
+}
+.btn3{
+    width:260px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+
+    background-image: linear-gradient(to Right, #8243c9e4 5%,#d047f6);
+}
+
+
+/* form css */ 
+
+.form_Parent{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form_Subparent{
+  
+    display: flex;
+    justify-content: space-around;
+    gap:8rem
+}
+
+/* .form_Left{
+    border: 2px solid rgb(0, 255, 55);
+   
+} */
+.form_left_Child{
+   
+    margin: 50px;
+    background-color: #f8ebff;
+    border-radius: 6px;
+}
+
+
+.input1{
+    width: 350px;
+    height: 60px;
+    margin: 30px;
+    font-size: 20px;
+}
+.form_Right{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.rupee_Div {
+    
+    font-family: DM Sans,sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 90%;
+    height:40%;
+    background-color:#f8ebff;
+    color:#2f065fe4;
+    border-bottom: 5px solid #2f065fe4;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.p-2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input2{
+    width: 350px;
+    height: 60px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.btn4{
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #2f065fe4;
+}

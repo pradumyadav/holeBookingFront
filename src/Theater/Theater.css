@@ -1,0 +1,89 @@
+
+
+    .Theater_Parent{    
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4b217be4;
+    }
+    .Theater_Subb_Parent{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        background-color: #ebeaea60;
+        border-radius: 20px;
+    }
+    .Theater_Input{
+        width:400px;
+        height: 60px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        background-color: #ffffff76;
+    }
+    .Theater_h2{
+        color: white;
+    }
+    .card_Parent{
+    
+        border-radius: 20px;
+        background-color: white;
+
+    }
+
+    .card_Sub_Parent{
+        /* border: 2px solid rgb(0, 255, 102); */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .Card_Child{
+        border: 3px solid black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin:1.2rem;
+       
+
+    }
+    .Theater_Img{
+        width:330px;
+        border-radius:13px;
+    }
+    .Theater_Name{
+        font-family: DM Sans,sans-serif;
+        font-size: 1.4rem;
+        padding-top: 15px;
+    }
+    .Theater_Prize{
+        font-family: DM Sans,sans-serif;
+        line-height: 3rem;
+    }
+    .Theater_Available{
+        font-family: DM Sans,sans-serif;
+        color: red;
+        line-height: 3rem;
+    }
+    .Theater_people{
+        font-family: DM Sans,sans-serif;
+        line-height: 3rem;
+    }
+    .btn5{
+        font-family: DM Sans,sans-serif;
+        width:150px;
+        height: 45px;
+        border-radius: 30px;
+        font-size: 18px;
+        color: white;
+        background-color: #441080e4;
+   
+    }
+
+   
