@@ -8,7 +8,7 @@ export default function Theater() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4001/api/getdata")
+      .get("https://hallbookingsbackend.onrender.com/api/getdata")
       .then((res) => setData(res.data))
       .catch((err) => {
         console.log(err);
